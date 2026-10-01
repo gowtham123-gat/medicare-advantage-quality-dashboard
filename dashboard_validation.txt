@@ -1,0 +1,6 @@
+PASS: JavaScript source executes with zero exceptions.
+PASS: all four page render handlers.
+PASS: baseline metrics agree with SQL.
+PASS: measure, month, combined, outreach and audit filters.
+PASS: reset and empty-context behavior.
+LIMIT: no browser binary was available, so browser visual rendering was not executed.

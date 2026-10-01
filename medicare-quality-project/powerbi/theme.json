@@ -1,0 +1,7 @@
+{
+  "name": "Medicare Quality Demonstration",
+  "dataColors": ["#2563EB", "#15803D", "#D97706", "#7C3AED", "#0891B2", "#64748B"],
+  "background": "#F3F6FA",
+  "foreground": "#14243B",
+  "tableAccent": "#2563EB"
+}

@@ -1,0 +1,105 @@
+// SETUP: these are separate definitions, NOT one executable script.
+// Power BI Modeling > New table for each table; New measure for each measure.
+// Import the three CSVs as FactQuality, DQAudit and DQErrors first.
+// Set Measurement_Month to Date in FactQuality and DQAudit.
+// Date/measure/provider/region relationships are specified in dashboard_specification.md.
+
+// CALCULATED TABLES
+DimDate =
+ADDCOLUMNS (
+    CALENDAR ( DATE ( 2026, 1, 1 ), DATE ( 2026, 6, 30 ) ),
+    "YearMonth", FORMAT ( [Date], "MMM yyyy" ),
+    "YearMonthSort", YEAR ( [Date] ) * 100 + MONTH ( [Date] )
+)
+
+DimMeasure = DISTINCT ( SELECTCOLUMNS ( FactQuality, "Measure_Name", FactQuality[Measure_Name] ) )
+DimProvider = DISTINCT ( SELECTCOLUMNS ( FactQuality, "Provider_Group", FactQuality[Provider_Group] ) )
+DimRegion = DISTINCT ( SELECTCOLUMNS ( FactQuality, "Region", FactQuality[Region] ) )
+DQRule =
+DATATABLE ( "Rule_ID", STRING, "Rule_Name", STRING,
+    {
+        { "R01", "Missing member or measure key" },
+        { "R02", "Duplicate member-measure key" },
+        { "R03", "Age outside demo cohort" },
+        { "R04", "Invalid or conflicting flags" },
+        { "R05", "Gap status or closure conflict" },
+        { "R06", "Outreach field inconsistency" },
+        { "R07", "Target differs from demo reference" },
+        { "R08", "Invalid measurement month" },
+        { "R09", "Missing or unknown dimension" },
+        { "R10", "Eligibility outside demo age gender rule" }
+    }
+)
+
+// MEASURES: add to FactQuality unless prefixed DQ.
+Total Records = COUNTROWS ( FactQuality )
+Unique Members = DISTINCTCOUNT ( FactQuality[Member_ID] )
+Eligible Opportunities = COALESCE ( CALCULATE ( COUNTROWS ( FactQuality ), KEEPFILTERS ( FactQuality[Eligible_Flag] = 1 ) ), 0 )
+Compliant Opportunities = COALESCE ( CALCULATE ( COUNTROWS ( FactQuality ), KEEPFILTERS ( FactQuality[Eligible_Flag] = 1 ), KEEPFILTERS ( FactQuality[Compliant_Flag] = 1 ) ), 0 )
+Compliance Rate = DIVIDE ( [Compliant Opportunities], [Eligible Opportunities] )
+Open Gaps = COALESCE ( CALCULATE ( COUNTROWS ( FactQuality ), KEEPFILTERS ( FactQuality[Eligible_Flag] = 1 ), KEEPFILTERS ( FactQuality[Compliant_Flag] = 0 ) ), 0 )
+Open Gap Rate = DIVIDE ( [Open Gaps], [Eligible Opportunities] )
+Members With Open Gaps = COALESCE ( CALCULATE ( DISTINCTCOUNT ( FactQuality[Member_ID] ), KEEPFILTERS ( FactQuality[Eligible_Flag] = 1 ), KEEPFILTERS ( FactQuality[Compliant_Flag] = 0 ) ), 0 )
+Weighted Target Rate =
+DIVIDE (
+    SUMX ( FILTER ( FactQuality, FactQuality[Eligible_Flag] = 1 ), FactQuality[Target_Rate] ),
+    [Eligible Opportunities]
+)
+Variance pp = IF ( [Eligible Opportunities] > 0, 100 * ( [Compliance Rate] - [Weighted Target Rate] ) )
+Target Attainment = DIVIDE ( [Compliance Rate], [Weighted Target Rate] )
+Target Status = IF ( [Eligible Opportunities] = 0, "No eligible records", IF ( [Variance pp] >= 0, "At or above target", "Below target" ) )
+Target Status Color = IF ( [Eligible Opportunities] = 0, "#64748B", IF ( [Variance pp] >= 0, "#15803D", "#B91C1C" ) )
+Additional Closures To Target =
+SUMX (
+    VALUES ( DimMeasure[Measure_Name] ),
+    VAR N = [Eligible Opportunities]
+    VAR C = [Compliant Opportunities]
+    VAR T = [Weighted Target Rate]
+    RETURN IF ( N > 0, MAX ( 0, ROUNDUP ( ROUND ( N * T, 8 ), 0 ) - C ), 0 )
+)
+Measures Below Target =
+COUNTROWS ( FILTER ( VALUES ( DimMeasure[Measure_Name] ), [Eligible Opportunities] > 0 && [Variance pp] < 0 ) )
+Provider Rank =
+IF ( [Eligible Opportunities] > 0,
+    RANKX ( FILTER ( ALLSELECTED ( DimProvider[Provider_Group] ), [Eligible Opportunities] > 0 ), [Compliance Rate], , DESC, DENSE )
+)
+Previous Month Compliance Rate =
+VAR AnchorDate = MAX ( DimDate[Date] )
+VAR PrevStart = EOMONTH ( AnchorDate, -2 ) + 1
+VAR PrevEnd = EOMONTH ( AnchorDate, -1 )
+RETURN IF ( HASONEVALUE ( DimDate[YearMonth] ),
+    CALCULATE ( [Compliance Rate], REMOVEFILTERS ( DimDate ), DimDate[Date] >= PrevStart, DimDate[Date] <= PrevEnd )
+)
+MoM Change pp =
+VAR Prev = [Previous Month Compliance Rate]
+RETURN IF ( HASONEVALUE ( DimDate[YearMonth] ) && NOT ISBLANK ( Prev ) && NOT ISBLANK ( [Compliance Rate] ), 100 * ( [Compliance Rate] - Prev ) )
+
+// Outreach denominators count gap opportunities, NOT outreach attempts or members.
+// A starting gap is still open OR was closed through recorded outreach.
+Starting Gaps = COALESCE ( COUNTROWS ( FILTER ( FactQuality, FactQuality[Eligible_Flag] = 1 && ( FactQuality[Compliant_Flag] = 0 || FactQuality[Gap_Closed] = 1 ) ) ), 0 )
+Attempted Gaps = COALESCE ( CALCULATE ( COUNTROWS ( FactQuality ), KEEPFILTERS ( FactQuality[Eligible_Flag] = 1 ), KEEPFILTERS ( FactQuality[Outreach_Attempts] > 0 ) ), 0 )
+Reached Gaps = COALESCE ( CALCULATE ( [Attempted Gaps], KEEPFILTERS ( FactQuality[Outreach_Status] = "Reached" ) ), 0 )
+Closed Gaps = COALESCE ( CALCULATE ( SUM ( FactQuality[Gap_Closed] ), KEEPFILTERS ( FactQuality[Eligible_Flag] = 1 ) ), 0 )
+Total Outreach Attempts = COALESCE ( CALCULATE ( SUM ( FactQuality[Outreach_Attempts] ), KEEPFILTERS ( FactQuality[Eligible_Flag] = 1 ), KEEPFILTERS ( FactQuality[Outreach_Attempts] > 0 ) ), 0 )
+Outreach Coverage = DIVIDE ( [Attempted Gaps], [Starting Gaps] )
+Reach Rate = DIVIDE ( [Reached Gaps], [Attempted Gaps] )
+Outreach Closure Rate = DIVIDE ( [Closed Gaps], [Attempted Gaps] )
+Closure Among Reached = DIVIDE ( [Closed Gaps], [Reached Gaps] )
+Starting Gap Closure Rate = DIVIDE ( [Closed Gaps], [Starting Gaps] )
+Average Attempts Per Gap = DIVIDE ( [Total Outreach Attempts], [Attempted Gaps] )
+Unattempted Open Gaps = COALESCE ( CALCULATE ( [Open Gaps], KEEPFILTERS ( FactQuality[Outreach_Attempts] = 0 ) ), 0 )
+Unreachable Open Gaps = COALESCE ( CALCULATE ( [Open Gaps], KEEPFILTERS ( FactQuality[Outreach_Status] = "Unable to Reach" ) ), 0 )
+
+// DQ measures: add to DQAudit. They evaluate the STAGING audit only.
+DQ Staging Rows = COUNTROWS ( DQAudit )
+DQ Affected Rows = COALESCE ( CALCULATE ( COUNTROWS ( DQAudit ), KEEPFILTERS ( DQAudit[Issue_Count] > 0 ) ), 0 )
+DQ Valid Rows = COALESCE ( CALCULATE ( COUNTROWS ( DQAudit ), KEEPFILTERS ( DQAudit[Issue_Count] = 0 ) ), 0 )
+DQ Valid Row Rate = DIVIDE ( [DQ Valid Rows], [DQ Staging Rows] )
+DQ Issue Row Rate = DIVIDE ( [DQ Affected Rows], [DQ Staging Rows] )
+DQ Rule Violations = COALESCE ( COUNTROWS ( DQErrors ), 0 )
+DQ Duplicate Excess Rows = COALESCE ( CALCULATE ( [DQ Rule Violations], KEEPFILTERS ( DQRule[Rule_ID] = "R02" ) ), 0 )
+DQ Missing Key Rows = COALESCE ( CALCULATE ( [DQ Rule Violations], KEEPFILTERS ( DQRule[Rule_ID] = "R01" ) ), 0 )
+DQ Age Issue Rows = COALESCE ( CALCULATE ( [DQ Rule Violations], KEEPFILTERS ( DQRule[Rule_ID] = "R03" ) ), 0 )
+DQ Flag Issue Rows = COALESCE ( CALCULATE ( [DQ Rule Violations], KEEPFILTERS ( DQRule[Rule_ID] = "R04" ) ), 0 )
+DQ Outreach Issue Rows = COALESCE ( CALCULATE ( [DQ Rule Violations], KEEPFILTERS ( DQRule[Rule_ID] = "R06" ) ), 0 )
+DQ Target Issue Rows = COALESCE ( CALCULATE ( [DQ Rule Violations], KEEPFILTERS ( DQRule[Rule_ID] = "R07" ) ), 0 )

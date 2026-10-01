@@ -1,0 +1,1415 @@
+{
+  "overall": [
+    {
+      "Records": 8000,
+      "Unique_Members": 3075,
+      "Eligible_Opportunities": 5884,
+      "Compliant_Opportunities": 4173,
+      "Open_Gaps": 1711,
+      "Compliance_Rate": 0.7092114208021754,
+      "Weighted_Target_Rate": 0.7946227056424202,
+      "Closed_Gaps": 474,
+      "Starting_Gaps": 2185
+    }
+  ],
+  "measures": [
+    {
+      "Measure_Name": "Breast Cancer Screening",
+      "Eligible_Opportunities": 538,
+      "Compliant_Opportunities": 392,
+      "Open_Gaps": 146,
+      "Compliance_Rate": 0.7286245353159851,
+      "Target_Rate": 0.8,
+      "Variance_pp": -7.13754646840149
+    },
+    {
+      "Measure_Name": "Colorectal Cancer Screening",
+      "Eligible_Opportunities": 924,
+      "Compliant_Opportunities": 531,
+      "Open_Gaps": 393,
+      "Compliance_Rate": 0.5746753246753247,
+      "Target_Rate": 0.75,
+      "Variance_pp": -17.532467532467532
+    },
+    {
+      "Measure_Name": "Controlling Blood Pressure",
+      "Eligible_Opportunities": 1397,
+      "Compliant_Opportunities": 1019,
+      "Open_Gaps": 378,
+      "Compliance_Rate": 0.7294201861130994,
+      "Target_Rate": 0.8,
+      "Variance_pp": -7.0579813886900595
+    },
+    {
+      "Measure_Name": "Diabetes Care",
+      "Eligible_Opportunities": 1007,
+      "Compliant_Opportunities": 701,
+      "Open_Gaps": 306,
+      "Compliance_Rate": 0.6961271102284012,
+      "Target_Rate": 0.78,
+      "Variance_pp": -8.38728897715988
+    },
+    {
+      "Measure_Name": "Follow-Up After Hospitalization",
+      "Eligible_Opportunities": 662,
+      "Compliant_Opportunities": 351,
+      "Open_Gaps": 311,
+      "Compliance_Rate": 0.5302114803625377,
+      "Target_Rate": 0.75,
+      "Variance_pp": -21.978851963746227
+    },
+    {
+      "Measure_Name": "Medication Adherence",
+      "Eligible_Opportunities": 1356,
+      "Compliant_Opportunities": 1179,
+      "Open_Gaps": 177,
+      "Compliance_Rate": 0.8694690265486725,
+      "Target_Rate": 0.85,
+      "Variance_pp": 1.9469026548672552
+    }
+  ],
+  "providers": [
+    {
+      "Provider_Group": "Provider Group A",
+      "Eligible_Opportunities": 1459,
+      "Compliant_Opportunities": 1131,
+      "Open_Gaps": 328,
+      "Compliance_Rate": 0.7751884852638794,
+      "Weighted_Target_Rate": 0.7947224126113777
+    },
+    {
+      "Provider_Group": "Provider Group B",
+      "Eligible_Opportunities": 1277,
+      "Compliant_Opportunities": 945,
+      "Open_Gaps": 332,
+      "Compliance_Rate": 0.7400156617071261,
+      "Weighted_Target_Rate": 0.795090054815975
+    },
+    {
+      "Provider_Group": "Provider Group C",
+      "Eligible_Opportunities": 1189,
+      "Compliant_Opportunities": 728,
+      "Open_Gaps": 461,
+      "Compliance_Rate": 0.6122792262405383,
+      "Weighted_Target_Rate": 0.7935912531539109
+    },
+    {
+      "Provider_Group": "Provider Group D",
+      "Eligible_Opportunities": 1103,
+      "Compliant_Opportunities": 765,
+      "Open_Gaps": 338,
+      "Compliance_Rate": 0.6935630099728014,
+      "Weighted_Target_Rate": 0.7951949229374433
+    },
+    {
+      "Provider_Group": "Provider Group E",
+      "Eligible_Opportunities": 856,
+      "Compliant_Opportunities": 604,
+      "Open_Gaps": 252,
+      "Compliance_Rate": 0.705607476635514,
+      "Weighted_Target_Rate": 0.7944509345794394
+    }
+  ],
+  "regions": [
+    {
+      "Region": "East",
+      "Eligible_Opportunities": 1203,
+      "Compliant_Opportunities": 864,
+      "Open_Gaps": 339,
+      "Compliance_Rate": 0.7182044887780549
+    },
+    {
+      "Region": "North",
+      "Eligible_Opportunities": 1536,
+      "Compliant_Opportunities": 1143,
+      "Open_Gaps": 393,
+      "Compliance_Rate": 0.744140625
+    },
+    {
+      "Region": "South",
+      "Eligible_Opportunities": 1804,
+      "Compliant_Opportunities": 1200,
+      "Open_Gaps": 604,
+      "Compliance_Rate": 0.6651884700665188
+    },
+    {
+      "Region": "West",
+      "Eligible_Opportunities": 1341,
+      "Compliant_Opportunities": 966,
+      "Open_Gaps": 375,
+      "Compliance_Rate": 0.7203579418344519
+    }
+  ],
+  "months": [
+    {
+      "Measurement_Month": "2026-01-01",
+      "Eligible_Opportunities": 1021,
+      "Compliant_Opportunities": 657,
+      "Open_Gaps": 364,
+      "Compliance_Rate": 0.643486777668952,
+      "Weighted_Target_Rate": 0.7953672869735554,
+      "MoM_Change_pp": null
+    },
+    {
+      "Measurement_Month": "2026-02-01",
+      "Eligible_Opportunities": 1003,
+      "Compliant_Opportunities": 675,
+      "Open_Gaps": 328,
+      "Compliance_Rate": 0.6729810568295115,
+      "Weighted_Target_Rate": 0.7941176470588235,
+      "MoM_Change_pp": 2.9494279160559467
+    },
+    {
+      "Measurement_Month": "2026-03-01",
+      "Eligible_Opportunities": 921,
+      "Compliant_Opportunities": 645,
+      "Open_Gaps": 276,
+      "Compliance_Rate": 0.7003257328990228,
+      "Weighted_Target_Rate": 0.7944408251900109,
+      "MoM_Change_pp": 2.73446760695113
+    },
+    {
+      "Measurement_Month": "2026-04-01",
+      "Eligible_Opportunities": 982,
+      "Compliant_Opportunities": 717,
+      "Open_Gaps": 265,
+      "Compliance_Rate": 0.730142566191446,
+      "Weighted_Target_Rate": 0.7955906313645621,
+      "MoM_Change_pp": 2.981683329242324
+    },
+    {
+      "Measurement_Month": "2026-05-01",
+      "Eligible_Opportunities": 966,
+      "Compliant_Opportunities": 725,
+      "Open_Gaps": 241,
+      "Compliance_Rate": 0.7505175983436853,
+      "Weighted_Target_Rate": 0.7927639751552795,
+      "MoM_Change_pp": 2.0375032152239236
+    },
+    {
+      "Measurement_Month": "2026-06-01",
+      "Eligible_Opportunities": 991,
+      "Compliant_Opportunities": 754,
+      "Open_Gaps": 237,
+      "Compliance_Rate": 0.7608476286579213,
+      "Weighted_Target_Rate": 0.795388496468214,
+      "MoM_Change_pp": 1.0330030314236072
+    }
+  ],
+  "outreach": [
+    {
+      "Outreach_Channel": "Care Coordinator",
+      "Attempted_Gaps": 193,
+      "Reached_Gaps": 167,
+      "Closed_Gaps": 128,
+      "Total_Attempts": 358,
+      "Closure_Rate": 0.6632124352331606,
+      "Reach_Rate": 0.8652849740932642,
+      "Closure_Among_Reached": 0.7664670658682635,
+      "Average_Attempts": 1.854922279792746
+    },
+    {
+      "Outreach_Channel": "Mail",
+      "Attempted_Gaps": 353,
+      "Reached_Gaps": 151,
+      "Closed_Gaps": 38,
+      "Total_Attempts": 668,
+      "Closure_Rate": 0.10764872521246459,
+      "Reach_Rate": 0.42776203966005666,
+      "Closure_Among_Reached": 0.25165562913907286,
+      "Average_Attempts": 1.8923512747875355
+    },
+    {
+      "Outreach_Channel": "Phone",
+      "Attempted_Gaps": 686,
+      "Reached_Gaps": 455,
+      "Closed_Gaps": 206,
+      "Total_Attempts": 1299,
+      "Closure_Rate": 0.30029154518950435,
+      "Reach_Rate": 0.6632653061224489,
+      "Closure_Among_Reached": 0.45274725274725275,
+      "Average_Attempts": 1.8935860058309038
+    },
+    {
+      "Outreach_Channel": "SMS",
+      "Attempted_Gaps": 408,
+      "Reached_Gaps": 252,
+      "Closed_Gaps": 102,
+      "Total_Attempts": 725,
+      "Closure_Rate": 0.25,
+      "Reach_Rate": 0.6176470588235294,
+      "Closure_Among_Reached": 0.40476190476190477,
+      "Average_Attempts": 1.7769607843137254
+    }
+  ],
+  "gaps": [
+    {
+      "Measure_Name": "Breast Cancer Screening",
+      "Provider_Group": "Provider Group A",
+      "Region": "East",
+      "Open_Gaps": 6,
+      "Members_With_Open_Gaps": 6,
+      "Unattempted_Open_Gaps": 3,
+      "Unreachable_Open_Gaps": 3
+    },
+    {
+      "Measure_Name": "Breast Cancer Screening",
+      "Provider_Group": "Provider Group A",
+      "Region": "North",
+      "Open_Gaps": 6,
+      "Members_With_Open_Gaps": 6,
+      "Unattempted_Open_Gaps": 2,
+      "Unreachable_Open_Gaps": 2
+    },
+    {
+      "Measure_Name": "Breast Cancer Screening",
+      "Provider_Group": "Provider Group A",
+      "Region": "South",
+      "Open_Gaps": 12,
+      "Members_With_Open_Gaps": 12,
+      "Unattempted_Open_Gaps": 3,
+      "Unreachable_Open_Gaps": 0
+    },
+    {
+      "Measure_Name": "Breast Cancer Screening",
+      "Provider_Group": "Provider Group A",
+      "Region": "West",
+      "Open_Gaps": 7,
+      "Members_With_Open_Gaps": 7,
+      "Unattempted_Open_Gaps": 3,
+      "Unreachable_Open_Gaps": 3
+    },
+    {
+      "Measure_Name": "Breast Cancer Screening",
+      "Provider_Group": "Provider Group B",
+      "Region": "East",
+      "Open_Gaps": 4,
+      "Members_With_Open_Gaps": 4,
+      "Unattempted_Open_Gaps": 0,
+      "Unreachable_Open_Gaps": 3
+    },
+    {
+      "Measure_Name": "Breast Cancer Screening",
+      "Provider_Group": "Provider Group B",
+      "Region": "North",
+      "Open_Gaps": 3,
+      "Members_With_Open_Gaps": 3,
+      "Unattempted_Open_Gaps": 0,
+      "Unreachable_Open_Gaps": 1
+    },
+    {
+      "Measure_Name": "Breast Cancer Screening",
+      "Provider_Group": "Provider Group B",
+      "Region": "South",
+      "Open_Gaps": 13,
+      "Members_With_Open_Gaps": 13,
+      "Unattempted_Open_Gaps": 3,
+      "Unreachable_Open_Gaps": 7
+    },
+    {
+      "Measure_Name": "Breast Cancer Screening",
+      "Provider_Group": "Provider Group B",
+      "Region": "West",
+      "Open_Gaps": 8,
+      "Members_With_Open_Gaps": 8,
+      "Unattempted_Open_Gaps": 3,
+      "Unreachable_Open_Gaps": 3
+    },
+    {
+      "Measure_Name": "Breast Cancer Screening",
+      "Provider_Group": "Provider Group C",
+      "Region": "East",
+      "Open_Gaps": 10,
+      "Members_With_Open_Gaps": 10,
+      "Unattempted_Open_Gaps": 2,
+      "Unreachable_Open_Gaps": 4
+    },
+    {
+      "Measure_Name": "Breast Cancer Screening",
+      "Provider_Group": "Provider Group C",
+      "Region": "North",
+      "Open_Gaps": 7,
+      "Members_With_Open_Gaps": 7,
+      "Unattempted_Open_Gaps": 3,
+      "Unreachable_Open_Gaps": 0
+    },
+    {
+      "Measure_Name": "Breast Cancer Screening",
+      "Provider_Group": "Provider Group C",
+      "Region": "South",
+      "Open_Gaps": 15,
+      "Members_With_Open_Gaps": 15,
+      "Unattempted_Open_Gaps": 4,
+      "Unreachable_Open_Gaps": 1
+    },
+    {
+      "Measure_Name": "Breast Cancer Screening",
+      "Provider_Group": "Provider Group C",
+      "Region": "West",
+      "Open_Gaps": 10,
+      "Members_With_Open_Gaps": 10,
+      "Unattempted_Open_Gaps": 6,
+      "Unreachable_Open_Gaps": 2
+    },
+    {
+      "Measure_Name": "Breast Cancer Screening",
+      "Provider_Group": "Provider Group D",
+      "Region": "East",
+      "Open_Gaps": 2,
+      "Members_With_Open_Gaps": 2,
+      "Unattempted_Open_Gaps": 0,
+      "Unreachable_Open_Gaps": 1
+    },
+    {
+      "Measure_Name": "Breast Cancer Screening",
+      "Provider_Group": "Provider Group D",
+      "Region": "North",
+      "Open_Gaps": 7,
+      "Members_With_Open_Gaps": 7,
+      "Unattempted_Open_Gaps": 3,
+      "Unreachable_Open_Gaps": 0
+    },
+    {
+      "Measure_Name": "Breast Cancer Screening",
+      "Provider_Group": "Provider Group D",
+      "Region": "South",
+      "Open_Gaps": 9,
+      "Members_With_Open_Gaps": 9,
+      "Unattempted_Open_Gaps": 3,
+      "Unreachable_Open_Gaps": 1
+    },
+    {
+      "Measure_Name": "Breast Cancer Screening",
+      "Provider_Group": "Provider Group D",
+      "Region": "West",
+      "Open_Gaps": 9,
+      "Members_With_Open_Gaps": 9,
+      "Unattempted_Open_Gaps": 3,
+      "Unreachable_Open_Gaps": 1
+    },
+    {
+      "Measure_Name": "Breast Cancer Screening",
+      "Provider_Group": "Provider Group E",
+      "Region": "East",
+      "Open_Gaps": 3,
+      "Members_With_Open_Gaps": 3,
+      "Unattempted_Open_Gaps": 0,
+      "Unreachable_Open_Gaps": 0
+    },
+    {
+      "Measure_Name": "Breast Cancer Screening",
+      "Provider_Group": "Provider Group E",
+      "Region": "North",
+      "Open_Gaps": 2,
+      "Members_With_Open_Gaps": 2,
+      "Unattempted_Open_Gaps": 2,
+      "Unreachable_Open_Gaps": 0
+    },
+    {
+      "Measure_Name": "Breast Cancer Screening",
+      "Provider_Group": "Provider Group E",
+      "Region": "South",
+      "Open_Gaps": 7,
+      "Members_With_Open_Gaps": 7,
+      "Unattempted_Open_Gaps": 4,
+      "Unreachable_Open_Gaps": 3
+    },
+    {
+      "Measure_Name": "Breast Cancer Screening",
+      "Provider_Group": "Provider Group E",
+      "Region": "West",
+      "Open_Gaps": 6,
+      "Members_With_Open_Gaps": 6,
+      "Unattempted_Open_Gaps": 2,
+      "Unreachable_Open_Gaps": 2
+    },
+    {
+      "Measure_Name": "Colorectal Cancer Screening",
+      "Provider_Group": "Provider Group A",
+      "Region": "East",
+      "Open_Gaps": 11,
+      "Members_With_Open_Gaps": 11,
+      "Unattempted_Open_Gaps": 2,
+      "Unreachable_Open_Gaps": 3
+    },
+    {
+      "Measure_Name": "Colorectal Cancer Screening",
+      "Provider_Group": "Provider Group A",
+      "Region": "North",
+      "Open_Gaps": 17,
+      "Members_With_Open_Gaps": 17,
+      "Unattempted_Open_Gaps": 5,
+      "Unreachable_Open_Gaps": 4
+    },
+    {
+      "Measure_Name": "Colorectal Cancer Screening",
+      "Provider_Group": "Provider Group A",
+      "Region": "South",
+      "Open_Gaps": 30,
+      "Members_With_Open_Gaps": 30,
+      "Unattempted_Open_Gaps": 9,
+      "Unreachable_Open_Gaps": 10
+    },
+    {
+      "Measure_Name": "Colorectal Cancer Screening",
+      "Provider_Group": "Provider Group A",
+      "Region": "West",
+      "Open_Gaps": 16,
+      "Members_With_Open_Gaps": 16,
+      "Unattempted_Open_Gaps": 5,
+      "Unreachable_Open_Gaps": 1
+    },
+    {
+      "Measure_Name": "Colorectal Cancer Screening",
+      "Provider_Group": "Provider Group B",
+      "Region": "East",
+      "Open_Gaps": 18,
+      "Members_With_Open_Gaps": 18,
+      "Unattempted_Open_Gaps": 4,
+      "Unreachable_Open_Gaps": 4
+    },
+    {
+      "Measure_Name": "Colorectal Cancer Screening",
+      "Provider_Group": "Provider Group B",
+      "Region": "North",
+      "Open_Gaps": 18,
+      "Members_With_Open_Gaps": 18,
+      "Unattempted_Open_Gaps": 8,
+      "Unreachable_Open_Gaps": 6
+    },
+    {
+      "Measure_Name": "Colorectal Cancer Screening",
+      "Provider_Group": "Provider Group B",
+      "Region": "South",
+      "Open_Gaps": 26,
+      "Members_With_Open_Gaps": 26,
+      "Unattempted_Open_Gaps": 8,
+      "Unreachable_Open_Gaps": 9
+    },
+    {
+      "Measure_Name": "Colorectal Cancer Screening",
+      "Provider_Group": "Provider Group B",
+      "Region": "West",
+      "Open_Gaps": 20,
+      "Members_With_Open_Gaps": 20,
+      "Unattempted_Open_Gaps": 7,
+      "Unreachable_Open_Gaps": 6
+    },
+    {
+      "Measure_Name": "Colorectal Cancer Screening",
+      "Provider_Group": "Provider Group C",
+      "Region": "East",
+      "Open_Gaps": 20,
+      "Members_With_Open_Gaps": 20,
+      "Unattempted_Open_Gaps": 5,
+      "Unreachable_Open_Gaps": 4
+    },
+    {
+      "Measure_Name": "Colorectal Cancer Screening",
+      "Provider_Group": "Provider Group C",
+      "Region": "North",
+      "Open_Gaps": 23,
+      "Members_With_Open_Gaps": 23,
+      "Unattempted_Open_Gaps": 8,
+      "Unreachable_Open_Gaps": 7
+    },
+    {
+      "Measure_Name": "Colorectal Cancer Screening",
+      "Provider_Group": "Provider Group C",
+      "Region": "South",
+      "Open_Gaps": 35,
+      "Members_With_Open_Gaps": 35,
+      "Unattempted_Open_Gaps": 13,
+      "Unreachable_Open_Gaps": 9
+    },
+    {
+      "Measure_Name": "Colorectal Cancer Screening",
+      "Provider_Group": "Provider Group C",
+      "Region": "West",
+      "Open_Gaps": 22,
+      "Members_With_Open_Gaps": 22,
+      "Unattempted_Open_Gaps": 10,
+      "Unreachable_Open_Gaps": 8
+    },
+    {
+      "Measure_Name": "Colorectal Cancer Screening",
+      "Provider_Group": "Provider Group D",
+      "Region": "East",
+      "Open_Gaps": 20,
+      "Members_With_Open_Gaps": 20,
+      "Unattempted_Open_Gaps": 5,
+      "Unreachable_Open_Gaps": 8
+    },
+    {
+      "Measure_Name": "Colorectal Cancer Screening",
+      "Provider_Group": "Provider Group D",
+      "Region": "North",
+      "Open_Gaps": 24,
+      "Members_With_Open_Gaps": 24,
+      "Unattempted_Open_Gaps": 8,
+      "Unreachable_Open_Gaps": 9
+    },
+    {
+      "Measure_Name": "Colorectal Cancer Screening",
+      "Provider_Group": "Provider Group D",
+      "Region": "South",
+      "Open_Gaps": 18,
+      "Members_With_Open_Gaps": 18,
+      "Unattempted_Open_Gaps": 8,
+      "Unreachable_Open_Gaps": 3
+    },
+    {
+      "Measure_Name": "Colorectal Cancer Screening",
+      "Provider_Group": "Provider Group D",
+      "Region": "West",
+      "Open_Gaps": 20,
+      "Members_With_Open_Gaps": 20,
+      "Unattempted_Open_Gaps": 10,
+      "Unreachable_Open_Gaps": 1
+    },
+    {
+      "Measure_Name": "Colorectal Cancer Screening",
+      "Provider_Group": "Provider Group E",
+      "Region": "East",
+      "Open_Gaps": 10,
+      "Members_With_Open_Gaps": 10,
+      "Unattempted_Open_Gaps": 6,
+      "Unreachable_Open_Gaps": 1
+    },
+    {
+      "Measure_Name": "Colorectal Cancer Screening",
+      "Provider_Group": "Provider Group E",
+      "Region": "North",
+      "Open_Gaps": 10,
+      "Members_With_Open_Gaps": 10,
+      "Unattempted_Open_Gaps": 1,
+      "Unreachable_Open_Gaps": 2
+    },
+    {
+      "Measure_Name": "Colorectal Cancer Screening",
+      "Provider_Group": "Provider Group E",
+      "Region": "South",
+      "Open_Gaps": 22,
+      "Members_With_Open_Gaps": 22,
+      "Unattempted_Open_Gaps": 7,
+      "Unreachable_Open_Gaps": 7
+    },
+    {
+      "Measure_Name": "Colorectal Cancer Screening",
+      "Provider_Group": "Provider Group E",
+      "Region": "West",
+      "Open_Gaps": 13,
+      "Members_With_Open_Gaps": 13,
+      "Unattempted_Open_Gaps": 2,
+      "Unreachable_Open_Gaps": 2
+    },
+    {
+      "Measure_Name": "Controlling Blood Pressure",
+      "Provider_Group": "Provider Group A",
+      "Region": "East",
+      "Open_Gaps": 18,
+      "Members_With_Open_Gaps": 18,
+      "Unattempted_Open_Gaps": 3,
+      "Unreachable_Open_Gaps": 7
+    },
+    {
+      "Measure_Name": "Controlling Blood Pressure",
+      "Provider_Group": "Provider Group A",
+      "Region": "North",
+      "Open_Gaps": 16,
+      "Members_With_Open_Gaps": 16,
+      "Unattempted_Open_Gaps": 4,
+      "Unreachable_Open_Gaps": 2
+    },
+    {
+      "Measure_Name": "Controlling Blood Pressure",
+      "Provider_Group": "Provider Group A",
+      "Region": "South",
+      "Open_Gaps": 25,
+      "Members_With_Open_Gaps": 25,
+      "Unattempted_Open_Gaps": 8,
+      "Unreachable_Open_Gaps": 12
+    },
+    {
+      "Measure_Name": "Controlling Blood Pressure",
+      "Provider_Group": "Provider Group A",
+      "Region": "West",
+      "Open_Gaps": 17,
+      "Members_With_Open_Gaps": 17,
+      "Unattempted_Open_Gaps": 3,
+      "Unreachable_Open_Gaps": 5
+    },
+    {
+      "Measure_Name": "Controlling Blood Pressure",
+      "Provider_Group": "Provider Group B",
+      "Region": "East",
+      "Open_Gaps": 24,
+      "Members_With_Open_Gaps": 24,
+      "Unattempted_Open_Gaps": 5,
+      "Unreachable_Open_Gaps": 9
+    },
+    {
+      "Measure_Name": "Controlling Blood Pressure",
+      "Provider_Group": "Provider Group B",
+      "Region": "North",
+      "Open_Gaps": 21,
+      "Members_With_Open_Gaps": 21,
+      "Unattempted_Open_Gaps": 8,
+      "Unreachable_Open_Gaps": 5
+    },
+    {
+      "Measure_Name": "Controlling Blood Pressure",
+      "Provider_Group": "Provider Group B",
+      "Region": "South",
+      "Open_Gaps": 20,
+      "Members_With_Open_Gaps": 20,
+      "Unattempted_Open_Gaps": 6,
+      "Unreachable_Open_Gaps": 4
+    },
+    {
+      "Measure_Name": "Controlling Blood Pressure",
+      "Provider_Group": "Provider Group B",
+      "Region": "West",
+      "Open_Gaps": 13,
+      "Members_With_Open_Gaps": 13,
+      "Unattempted_Open_Gaps": 3,
+      "Unreachable_Open_Gaps": 2
+    },
+    {
+      "Measure_Name": "Controlling Blood Pressure",
+      "Provider_Group": "Provider Group C",
+      "Region": "East",
+      "Open_Gaps": 15,
+      "Members_With_Open_Gaps": 15,
+      "Unattempted_Open_Gaps": 9,
+      "Unreachable_Open_Gaps": 0
+    },
+    {
+      "Measure_Name": "Controlling Blood Pressure",
+      "Provider_Group": "Provider Group C",
+      "Region": "North",
+      "Open_Gaps": 20,
+      "Members_With_Open_Gaps": 20,
+      "Unattempted_Open_Gaps": 6,
+      "Unreachable_Open_Gaps": 6
+    },
+    {
+      "Measure_Name": "Controlling Blood Pressure",
+      "Provider_Group": "Provider Group C",
+      "Region": "South",
+      "Open_Gaps": 37,
+      "Members_With_Open_Gaps": 37,
+      "Unattempted_Open_Gaps": 9,
+      "Unreachable_Open_Gaps": 9
+    },
+    {
+      "Measure_Name": "Controlling Blood Pressure",
+      "Provider_Group": "Provider Group C",
+      "Region": "West",
+      "Open_Gaps": 22,
+      "Members_With_Open_Gaps": 22,
+      "Unattempted_Open_Gaps": 10,
+      "Unreachable_Open_Gaps": 5
+    },
+    {
+      "Measure_Name": "Controlling Blood Pressure",
+      "Provider_Group": "Provider Group D",
+      "Region": "East",
+      "Open_Gaps": 13,
+      "Members_With_Open_Gaps": 13,
+      "Unattempted_Open_Gaps": 4,
+      "Unreachable_Open_Gaps": 5
+    },
+    {
+      "Measure_Name": "Controlling Blood Pressure",
+      "Provider_Group": "Provider Group D",
+      "Region": "North",
+      "Open_Gaps": 12,
+      "Members_With_Open_Gaps": 12,
+      "Unattempted_Open_Gaps": 4,
+      "Unreachable_Open_Gaps": 3
+    },
+    {
+      "Measure_Name": "Controlling Blood Pressure",
+      "Provider_Group": "Provider Group D",
+      "Region": "South",
+      "Open_Gaps": 26,
+      "Members_With_Open_Gaps": 26,
+      "Unattempted_Open_Gaps": 6,
+      "Unreachable_Open_Gaps": 12
+    },
+    {
+      "Measure_Name": "Controlling Blood Pressure",
+      "Provider_Group": "Provider Group D",
+      "Region": "West",
+      "Open_Gaps": 21,
+      "Members_With_Open_Gaps": 21,
+      "Unattempted_Open_Gaps": 4,
+      "Unreachable_Open_Gaps": 3
+    },
+    {
+      "Measure_Name": "Controlling Blood Pressure",
+      "Provider_Group": "Provider Group E",
+      "Region": "East",
+      "Open_Gaps": 11,
+      "Members_With_Open_Gaps": 11,
+      "Unattempted_Open_Gaps": 6,
+      "Unreachable_Open_Gaps": 2
+    },
+    {
+      "Measure_Name": "Controlling Blood Pressure",
+      "Provider_Group": "Provider Group E",
+      "Region": "North",
+      "Open_Gaps": 10,
+      "Members_With_Open_Gaps": 10,
+      "Unattempted_Open_Gaps": 5,
+      "Unreachable_Open_Gaps": 4
+    },
+    {
+      "Measure_Name": "Controlling Blood Pressure",
+      "Provider_Group": "Provider Group E",
+      "Region": "South",
+      "Open_Gaps": 28,
+      "Members_With_Open_Gaps": 28,
+      "Unattempted_Open_Gaps": 9,
+      "Unreachable_Open_Gaps": 7
+    },
+    {
+      "Measure_Name": "Controlling Blood Pressure",
+      "Provider_Group": "Provider Group E",
+      "Region": "West",
+      "Open_Gaps": 9,
+      "Members_With_Open_Gaps": 9,
+      "Unattempted_Open_Gaps": 2,
+      "Unreachable_Open_Gaps": 3
+    },
+    {
+      "Measure_Name": "Diabetes Care",
+      "Provider_Group": "Provider Group A",
+      "Region": "East",
+      "Open_Gaps": 8,
+      "Members_With_Open_Gaps": 8,
+      "Unattempted_Open_Gaps": 5,
+      "Unreachable_Open_Gaps": 0
+    },
+    {
+      "Measure_Name": "Diabetes Care",
+      "Provider_Group": "Provider Group A",
+      "Region": "North",
+      "Open_Gaps": 7,
+      "Members_With_Open_Gaps": 7,
+      "Unattempted_Open_Gaps": 5,
+      "Unreachable_Open_Gaps": 0
+    },
+    {
+      "Measure_Name": "Diabetes Care",
+      "Provider_Group": "Provider Group A",
+      "Region": "South",
+      "Open_Gaps": 26,
+      "Members_With_Open_Gaps": 26,
+      "Unattempted_Open_Gaps": 12,
+      "Unreachable_Open_Gaps": 5
+    },
+    {
+      "Measure_Name": "Diabetes Care",
+      "Provider_Group": "Provider Group A",
+      "Region": "West",
+      "Open_Gaps": 12,
+      "Members_With_Open_Gaps": 12,
+      "Unattempted_Open_Gaps": 2,
+      "Unreachable_Open_Gaps": 2
+    },
+    {
+      "Measure_Name": "Diabetes Care",
+      "Provider_Group": "Provider Group B",
+      "Region": "East",
+      "Open_Gaps": 10,
+      "Members_With_Open_Gaps": 10,
+      "Unattempted_Open_Gaps": 2,
+      "Unreachable_Open_Gaps": 4
+    },
+    {
+      "Measure_Name": "Diabetes Care",
+      "Provider_Group": "Provider Group B",
+      "Region": "North",
+      "Open_Gaps": 14,
+      "Members_With_Open_Gaps": 14,
+      "Unattempted_Open_Gaps": 4,
+      "Unreachable_Open_Gaps": 3
+    },
+    {
+      "Measure_Name": "Diabetes Care",
+      "Provider_Group": "Provider Group B",
+      "Region": "South",
+      "Open_Gaps": 28,
+      "Members_With_Open_Gaps": 28,
+      "Unattempted_Open_Gaps": 8,
+      "Unreachable_Open_Gaps": 12
+    },
+    {
+      "Measure_Name": "Diabetes Care",
+      "Provider_Group": "Provider Group B",
+      "Region": "West",
+      "Open_Gaps": 10,
+      "Members_With_Open_Gaps": 10,
+      "Unattempted_Open_Gaps": 2,
+      "Unreachable_Open_Gaps": 5
+    },
+    {
+      "Measure_Name": "Diabetes Care",
+      "Provider_Group": "Provider Group C",
+      "Region": "East",
+      "Open_Gaps": 16,
+      "Members_With_Open_Gaps": 16,
+      "Unattempted_Open_Gaps": 6,
+      "Unreachable_Open_Gaps": 7
+    },
+    {
+      "Measure_Name": "Diabetes Care",
+      "Provider_Group": "Provider Group C",
+      "Region": "North",
+      "Open_Gaps": 22,
+      "Members_With_Open_Gaps": 22,
+      "Unattempted_Open_Gaps": 12,
+      "Unreachable_Open_Gaps": 4
+    },
+    {
+      "Measure_Name": "Diabetes Care",
+      "Provider_Group": "Provider Group C",
+      "Region": "South",
+      "Open_Gaps": 30,
+      "Members_With_Open_Gaps": 30,
+      "Unattempted_Open_Gaps": 10,
+      "Unreachable_Open_Gaps": 11
+    },
+    {
+      "Measure_Name": "Diabetes Care",
+      "Provider_Group": "Provider Group C",
+      "Region": "West",
+      "Open_Gaps": 19,
+      "Members_With_Open_Gaps": 19,
+      "Unattempted_Open_Gaps": 7,
+      "Unreachable_Open_Gaps": 7
+    },
+    {
+      "Measure_Name": "Diabetes Care",
+      "Provider_Group": "Provider Group D",
+      "Region": "East",
+      "Open_Gaps": 12,
+      "Members_With_Open_Gaps": 12,
+      "Unattempted_Open_Gaps": 3,
+      "Unreachable_Open_Gaps": 3
+    },
+    {
+      "Measure_Name": "Diabetes Care",
+      "Provider_Group": "Provider Group D",
+      "Region": "North",
+      "Open_Gaps": 16,
+      "Members_With_Open_Gaps": 16,
+      "Unattempted_Open_Gaps": 3,
+      "Unreachable_Open_Gaps": 3
+    },
+    {
+      "Measure_Name": "Diabetes Care",
+      "Provider_Group": "Provider Group D",
+      "Region": "South",
+      "Open_Gaps": 16,
+      "Members_With_Open_Gaps": 16,
+      "Unattempted_Open_Gaps": 2,
+      "Unreachable_Open_Gaps": 6
+    },
+    {
+      "Measure_Name": "Diabetes Care",
+      "Provider_Group": "Provider Group D",
+      "Region": "West",
+      "Open_Gaps": 14,
+      "Members_With_Open_Gaps": 14,
+      "Unattempted_Open_Gaps": 4,
+      "Unreachable_Open_Gaps": 2
+    },
+    {
+      "Measure_Name": "Diabetes Care",
+      "Provider_Group": "Provider Group E",
+      "Region": "East",
+      "Open_Gaps": 11,
+      "Members_With_Open_Gaps": 11,
+      "Unattempted_Open_Gaps": 2,
+      "Unreachable_Open_Gaps": 7
+    },
+    {
+      "Measure_Name": "Diabetes Care",
+      "Provider_Group": "Provider Group E",
+      "Region": "North",
+      "Open_Gaps": 9,
+      "Members_With_Open_Gaps": 9,
+      "Unattempted_Open_Gaps": 3,
+      "Unreachable_Open_Gaps": 3
+    },
+    {
+      "Measure_Name": "Diabetes Care",
+      "Provider_Group": "Provider Group E",
+      "Region": "South",
+      "Open_Gaps": 17,
+      "Members_With_Open_Gaps": 17,
+      "Unattempted_Open_Gaps": 4,
+      "Unreachable_Open_Gaps": 6
+    },
+    {
+      "Measure_Name": "Diabetes Care",
+      "Provider_Group": "Provider Group E",
+      "Region": "West",
+      "Open_Gaps": 9,
+      "Members_With_Open_Gaps": 9,
+      "Unattempted_Open_Gaps": 6,
+      "Unreachable_Open_Gaps": 0
+    },
+    {
+      "Measure_Name": "Follow-Up After Hospitalization",
+      "Provider_Group": "Provider Group A",
+      "Region": "East",
+      "Open_Gaps": 14,
+      "Members_With_Open_Gaps": 14,
+      "Unattempted_Open_Gaps": 3,
+      "Unreachable_Open_Gaps": 5
+    },
+    {
+      "Measure_Name": "Follow-Up After Hospitalization",
+      "Provider_Group": "Provider Group A",
+      "Region": "North",
+      "Open_Gaps": 22,
+      "Members_With_Open_Gaps": 22,
+      "Unattempted_Open_Gaps": 6,
+      "Unreachable_Open_Gaps": 6
+    },
+    {
+      "Measure_Name": "Follow-Up After Hospitalization",
+      "Provider_Group": "Provider Group A",
+      "Region": "South",
+      "Open_Gaps": 27,
+      "Members_With_Open_Gaps": 27,
+      "Unattempted_Open_Gaps": 8,
+      "Unreachable_Open_Gaps": 6
+    },
+    {
+      "Measure_Name": "Follow-Up After Hospitalization",
+      "Provider_Group": "Provider Group A",
+      "Region": "West",
+      "Open_Gaps": 12,
+      "Members_With_Open_Gaps": 12,
+      "Unattempted_Open_Gaps": 5,
+      "Unreachable_Open_Gaps": 0
+    },
+    {
+      "Measure_Name": "Follow-Up After Hospitalization",
+      "Provider_Group": "Provider Group B",
+      "Region": "East",
+      "Open_Gaps": 14,
+      "Members_With_Open_Gaps": 14,
+      "Unattempted_Open_Gaps": 5,
+      "Unreachable_Open_Gaps": 3
+    },
+    {
+      "Measure_Name": "Follow-Up After Hospitalization",
+      "Provider_Group": "Provider Group B",
+      "Region": "North",
+      "Open_Gaps": 16,
+      "Members_With_Open_Gaps": 16,
+      "Unattempted_Open_Gaps": 3,
+      "Unreachable_Open_Gaps": 3
+    },
+    {
+      "Measure_Name": "Follow-Up After Hospitalization",
+      "Provider_Group": "Provider Group B",
+      "Region": "South",
+      "Open_Gaps": 17,
+      "Members_With_Open_Gaps": 17,
+      "Unattempted_Open_Gaps": 7,
+      "Unreachable_Open_Gaps": 4
+    },
+    {
+      "Measure_Name": "Follow-Up After Hospitalization",
+      "Provider_Group": "Provider Group B",
+      "Region": "West",
+      "Open_Gaps": 8,
+      "Members_With_Open_Gaps": 8,
+      "Unattempted_Open_Gaps": 2,
+      "Unreachable_Open_Gaps": 2
+    },
+    {
+      "Measure_Name": "Follow-Up After Hospitalization",
+      "Provider_Group": "Provider Group C",
+      "Region": "East",
+      "Open_Gaps": 11,
+      "Members_With_Open_Gaps": 11,
+      "Unattempted_Open_Gaps": 6,
+      "Unreachable_Open_Gaps": 1
+    },
+    {
+      "Measure_Name": "Follow-Up After Hospitalization",
+      "Provider_Group": "Provider Group C",
+      "Region": "North",
+      "Open_Gaps": 25,
+      "Members_With_Open_Gaps": 25,
+      "Unattempted_Open_Gaps": 6,
+      "Unreachable_Open_Gaps": 9
+    },
+    {
+      "Measure_Name": "Follow-Up After Hospitalization",
+      "Provider_Group": "Provider Group C",
+      "Region": "South",
+      "Open_Gaps": 20,
+      "Members_With_Open_Gaps": 20,
+      "Unattempted_Open_Gaps": 8,
+      "Unreachable_Open_Gaps": 7
+    },
+    {
+      "Measure_Name": "Follow-Up After Hospitalization",
+      "Provider_Group": "Provider Group C",
+      "Region": "West",
+      "Open_Gaps": 22,
+      "Members_With_Open_Gaps": 22,
+      "Unattempted_Open_Gaps": 6,
+      "Unreachable_Open_Gaps": 6
+    },
+    {
+      "Measure_Name": "Follow-Up After Hospitalization",
+      "Provider_Group": "Provider Group D",
+      "Region": "East",
+      "Open_Gaps": 10,
+      "Members_With_Open_Gaps": 10,
+      "Unattempted_Open_Gaps": 2,
+      "Unreachable_Open_Gaps": 6
+    },
+    {
+      "Measure_Name": "Follow-Up After Hospitalization",
+      "Provider_Group": "Provider Group D",
+      "Region": "North",
+      "Open_Gaps": 18,
+      "Members_With_Open_Gaps": 18,
+      "Unattempted_Open_Gaps": 2,
+      "Unreachable_Open_Gaps": 4
+    },
+    {
+      "Measure_Name": "Follow-Up After Hospitalization",
+      "Provider_Group": "Provider Group D",
+      "Region": "South",
+      "Open_Gaps": 14,
+      "Members_With_Open_Gaps": 14,
+      "Unattempted_Open_Gaps": 6,
+      "Unreachable_Open_Gaps": 5
+    },
+    {
+      "Measure_Name": "Follow-Up After Hospitalization",
+      "Provider_Group": "Provider Group D",
+      "Region": "West",
+      "Open_Gaps": 12,
+      "Members_With_Open_Gaps": 12,
+      "Unattempted_Open_Gaps": 4,
+      "Unreachable_Open_Gaps": 5
+    },
+    {
+      "Measure_Name": "Follow-Up After Hospitalization",
+      "Provider_Group": "Provider Group E",
+      "Region": "East",
+      "Open_Gaps": 9,
+      "Members_With_Open_Gaps": 9,
+      "Unattempted_Open_Gaps": 2,
+      "Unreachable_Open_Gaps": 4
+    },
+    {
+      "Measure_Name": "Follow-Up After Hospitalization",
+      "Provider_Group": "Provider Group E",
+      "Region": "North",
+      "Open_Gaps": 13,
+      "Members_With_Open_Gaps": 13,
+      "Unattempted_Open_Gaps": 3,
+      "Unreachable_Open_Gaps": 4
+    },
+    {
+      "Measure_Name": "Follow-Up After Hospitalization",
+      "Provider_Group": "Provider Group E",
+      "Region": "South",
+      "Open_Gaps": 17,
+      "Members_With_Open_Gaps": 17,
+      "Unattempted_Open_Gaps": 3,
+      "Unreachable_Open_Gaps": 7
+    },
+    {
+      "Measure_Name": "Follow-Up After Hospitalization",
+      "Provider_Group": "Provider Group E",
+      "Region": "West",
+      "Open_Gaps": 10,
+      "Members_With_Open_Gaps": 10,
+      "Unattempted_Open_Gaps": 1,
+      "Unreachable_Open_Gaps": 5
+    },
+    {
+      "Measure_Name": "Medication Adherence",
+      "Provider_Group": "Provider Group A",
+      "Region": "East",
+      "Open_Gaps": 2,
+      "Members_With_Open_Gaps": 2,
+      "Unattempted_Open_Gaps": 2,
+      "Unreachable_Open_Gaps": 0
+    },
+    {
+      "Measure_Name": "Medication Adherence",
+      "Provider_Group": "Provider Group A",
+      "Region": "South",
+      "Open_Gaps": 10,
+      "Members_With_Open_Gaps": 10,
+      "Unattempted_Open_Gaps": 3,
+      "Unreachable_Open_Gaps": 5
+    },
+    {
+      "Measure_Name": "Medication Adherence",
+      "Provider_Group": "Provider Group A",
+      "Region": "West",
+      "Open_Gaps": 7,
+      "Members_With_Open_Gaps": 7,
+      "Unattempted_Open_Gaps": 3,
+      "Unreachable_Open_Gaps": 1
+    },
+    {
+      "Measure_Name": "Medication Adherence",
+      "Provider_Group": "Provider Group B",
+      "Region": "East",
+      "Open_Gaps": 6,
+      "Members_With_Open_Gaps": 6,
+      "Unattempted_Open_Gaps": 1,
+      "Unreachable_Open_Gaps": 2
+    },
+    {
+      "Measure_Name": "Medication Adherence",
+      "Provider_Group": "Provider Group B",
+      "Region": "North",
+      "Open_Gaps": 9,
+      "Members_With_Open_Gaps": 9,
+      "Unattempted_Open_Gaps": 5,
+      "Unreachable_Open_Gaps": 3
+    },
+    {
+      "Measure_Name": "Medication Adherence",
+      "Provider_Group": "Provider Group B",
+      "Region": "South",
+      "Open_Gaps": 8,
+      "Members_With_Open_Gaps": 8,
+      "Unattempted_Open_Gaps": 3,
+      "Unreachable_Open_Gaps": 4
+    },
+    {
+      "Measure_Name": "Medication Adherence",
+      "Provider_Group": "Provider Group B",
+      "Region": "West",
+      "Open_Gaps": 4,
+      "Members_With_Open_Gaps": 4,
+      "Unattempted_Open_Gaps": 2,
+      "Unreachable_Open_Gaps": 0
+    },
+    {
+      "Measure_Name": "Medication Adherence",
+      "Provider_Group": "Provider Group C",
+      "Region": "East",
+      "Open_Gaps": 15,
+      "Members_With_Open_Gaps": 15,
+      "Unattempted_Open_Gaps": 4,
+      "Unreachable_Open_Gaps": 4
+    },
+    {
+      "Measure_Name": "Medication Adherence",
+      "Provider_Group": "Provider Group C",
+      "Region": "North",
+      "Open_Gaps": 14,
+      "Members_With_Open_Gaps": 14,
+      "Unattempted_Open_Gaps": 6,
+      "Unreachable_Open_Gaps": 4
+    },
+    {
+      "Measure_Name": "Medication Adherence",
+      "Provider_Group": "Provider Group C",
+      "Region": "South",
+      "Open_Gaps": 22,
+      "Members_With_Open_Gaps": 22,
+      "Unattempted_Open_Gaps": 8,
+      "Unreachable_Open_Gaps": 7
+    },
+    {
+      "Measure_Name": "Medication Adherence",
+      "Provider_Group": "Provider Group C",
+      "Region": "West",
+      "Open_Gaps": 9,
+      "Members_With_Open_Gaps": 9,
+      "Unattempted_Open_Gaps": 5,
+      "Unreachable_Open_Gaps": 2
+    },
+    {
+      "Measure_Name": "Medication Adherence",
+      "Provider_Group": "Provider Group D",
+      "Region": "East",
+      "Open_Gaps": 8,
+      "Members_With_Open_Gaps": 8,
+      "Unattempted_Open_Gaps": 2,
+      "Unreachable_Open_Gaps": 2
+    },
+    {
+      "Measure_Name": "Medication Adherence",
+      "Provider_Group": "Provider Group D",
+      "Region": "North",
+      "Open_Gaps": 7,
+      "Members_With_Open_Gaps": 7,
+      "Unattempted_Open_Gaps": 1,
+      "Unreachable_Open_Gaps": 2
+    },
+    {
+      "Measure_Name": "Medication Adherence",
+      "Provider_Group": "Provider Group D",
+      "Region": "South",
+      "Open_Gaps": 20,
+      "Members_With_Open_Gaps": 20,
+      "Unattempted_Open_Gaps": 4,
+      "Unreachable_Open_Gaps": 7
+    },
+    {
+      "Measure_Name": "Medication Adherence",
+      "Provider_Group": "Provider Group D",
+      "Region": "West",
+      "Open_Gaps": 10,
+      "Members_With_Open_Gaps": 10,
+      "Unattempted_Open_Gaps": 2,
+      "Unreachable_Open_Gaps": 4
+    },
+    {
+      "Measure_Name": "Medication Adherence",
+      "Provider_Group": "Provider Group E",
+      "Region": "East",
+      "Open_Gaps": 8,
+      "Members_With_Open_Gaps": 8,
+      "Unattempted_Open_Gaps": 4,
+      "Unreachable_Open_Gaps": 2
+    },
+    {
+      "Measure_Name": "Medication Adherence",
+      "Provider_Group": "Provider Group E",
+      "Region": "North",
+      "Open_Gaps": 5,
+      "Members_With_Open_Gaps": 5,
+      "Unattempted_Open_Gaps": 4,
+      "Unreachable_Open_Gaps": 0
+    },
+    {
+      "Measure_Name": "Medication Adherence",
+      "Provider_Group": "Provider Group E",
+      "Region": "South",
+      "Open_Gaps": 9,
+      "Members_With_Open_Gaps": 9,
+      "Unattempted_Open_Gaps": 1,
+      "Unreachable_Open_Gaps": 7
+    },
+    {
+      "Measure_Name": "Medication Adherence",
+      "Provider_Group": "Provider Group E",
+      "Region": "West",
+      "Open_Gaps": 4,
+      "Members_With_Open_Gaps": 4,
+      "Unattempted_Open_Gaps": 1,
+      "Unreachable_Open_Gaps": 1
+    }
+  ],
+  "target": [
+    {
+      "Measure_Name": "Colorectal Cancer Screening",
+      "Eligible_Opportunities": 924,
+      "Compliant_Opportunities": 531,
+      "Compliance_Rate": 0.5746753246753247,
+      "Target_Rate": 0.75,
+      "Variance_pp": -17.532467532467532,
+      "Additional_Closures_To_Target": 162
+    },
+    {
+      "Measure_Name": "Follow-Up After Hospitalization",
+      "Eligible_Opportunities": 662,
+      "Compliant_Opportunities": 351,
+      "Compliance_Rate": 0.5302114803625377,
+      "Target_Rate": 0.75,
+      "Variance_pp": -21.978851963746227,
+      "Additional_Closures_To_Target": 146
+    },
+    {
+      "Measure_Name": "Controlling Blood Pressure",
+      "Eligible_Opportunities": 1397,
+      "Compliant_Opportunities": 1019,
+      "Compliance_Rate": 0.7294201861130994,
+      "Target_Rate": 0.8,
+      "Variance_pp": -7.0579813886900595,
+      "Additional_Closures_To_Target": 99
+    },
+    {
+      "Measure_Name": "Diabetes Care",
+      "Eligible_Opportunities": 1007,
+      "Compliant_Opportunities": 701,
+      "Compliance_Rate": 0.6961271102284012,
+      "Target_Rate": 0.78,
+      "Variance_pp": -8.38728897715988,
+      "Additional_Closures_To_Target": 85
+    },
+    {
+      "Measure_Name": "Breast Cancer Screening",
+      "Eligible_Opportunities": 538,
+      "Compliant_Opportunities": 392,
+      "Compliance_Rate": 0.7286245353159851,
+      "Target_Rate": 0.8,
+      "Variance_pp": -7.13754646840149,
+      "Additional_Closures_To_Target": 39
+    },
+    {
+      "Measure_Name": "Medication Adherence",
+      "Eligible_Opportunities": 1356,
+      "Compliant_Opportunities": 1179,
+      "Compliance_Rate": 0.8694690265486725,
+      "Target_Rate": 0.85,
+      "Variance_pp": 1.9469026548672552,
+      "Additional_Closures_To_Target": 0
+    }
+  ],
+  "dq": {
+    "rows": 8020,
+    "affected_rows": 66,
+    "issues": 66,
+    "checks": [
+      {
+        "Rule_ID": "R01",
+        "Rule_Name": "Missing member or measure key",
+        "Issue_Count": 8
+      },
+      {
+        "Rule_ID": "R02",
+        "Rule_Name": "Duplicate member-measure key",
+        "Issue_Count": 20
+      },
+      {
+        "Rule_ID": "R03",
+        "Rule_Name": "Age outside demo cohort",
+        "Issue_Count": 8
+      },
+      {
+        "Rule_ID": "R04",
+        "Rule_Name": "Invalid or conflicting flags",
+        "Issue_Count": 10
+      },
+      {
+        "Rule_ID": "R06",
+        "Rule_Name": "Outreach field inconsistency",
+        "Issue_Count": 12
+      },
+      {
+        "Rule_ID": "R07",
+        "Rule_Name": "Target differs from demo reference",
+        "Issue_Count": 8
+      }
+    ]
+  },
+  "seed": 20260930,
+  "unique_members": 3075,
+  "raw_unique_members": 3075,
+  "disclaimer": "This project uses entirely synthetic data created for demonstration purposes. No PHI, PII, patient records, or proprietary employer data are included."
+}

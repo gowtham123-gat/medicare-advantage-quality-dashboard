@@ -1,0 +1,67 @@
+Row_ID,Rule_ID,Rule_Name
+11,R06,Outreach field inconsistency
+47,R04,Invalid or conflicting flags
+77,R06,Outreach field inconsistency
+308,R04,Invalid or conflicting flags
+321,R03,Age outside demo cohort
+353,R04,Invalid or conflicting flags
+589,R04,Invalid or conflicting flags
+714,R04,Invalid or conflicting flags
+844,R03,Age outside demo cohort
+1162,R06,Outreach field inconsistency
+1238,R06,Outreach field inconsistency
+1283,R06,Outreach field inconsistency
+1366,R01,Missing member or measure key
+1436,R01,Missing member or measure key
+1474,R06,Outreach field inconsistency
+1558,R06,Outreach field inconsistency
+1763,R07,Target differs from demo reference
+2494,R04,Invalid or conflicting flags
+2572,R04,Invalid or conflicting flags
+2696,R07,Target differs from demo reference
+2788,R07,Target differs from demo reference
+2872,R03,Age outside demo cohort
+3062,R01,Missing member or measure key
+3581,R01,Missing member or measure key
+3652,R06,Outreach field inconsistency
+3669,R07,Target differs from demo reference
+3687,R01,Missing member or measure key
+3804,R06,Outreach field inconsistency
+4041,R03,Age outside demo cohort
+4067,R07,Target differs from demo reference
+4255,R06,Outreach field inconsistency
+5093,R03,Age outside demo cohort
+5104,R01,Missing member or measure key
+5420,R07,Target differs from demo reference
+5630,R06,Outreach field inconsistency
+5936,R03,Age outside demo cohort
+6082,R04,Invalid or conflicting flags
+6165,R03,Age outside demo cohort
+6436,R07,Target differs from demo reference
+6535,R07,Target differs from demo reference
+6541,R03,Age outside demo cohort
+6880,R06,Outreach field inconsistency
+6925,R01,Missing member or measure key
+7463,R01,Missing member or measure key
+7569,R04,Invalid or conflicting flags
+7709,R04,Invalid or conflicting flags
+8001,R02,Duplicate member-measure key
+8002,R02,Duplicate member-measure key
+8003,R02,Duplicate member-measure key
+8004,R02,Duplicate member-measure key
+8005,R02,Duplicate member-measure key
+8006,R02,Duplicate member-measure key
+8007,R02,Duplicate member-measure key
+8008,R02,Duplicate member-measure key
+8009,R02,Duplicate member-measure key
+8010,R02,Duplicate member-measure key
+8011,R02,Duplicate member-measure key
+8012,R02,Duplicate member-measure key
+8013,R02,Duplicate member-measure key
+8014,R02,Duplicate member-measure key
+8015,R02,Duplicate member-measure key
+8016,R02,Duplicate member-measure key
+8017,R02,Duplicate member-measure key
+8018,R02,Duplicate member-measure key
+8019,R02,Duplicate member-measure key
+8020,R02,Duplicate member-measure key
